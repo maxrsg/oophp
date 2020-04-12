@@ -1,0 +1,28 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .rm-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .article {
+        .figure.right {
+            max-width: 300px;
+            float: none;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

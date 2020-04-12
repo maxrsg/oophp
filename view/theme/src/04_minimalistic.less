@@ -1,0 +1,76 @@
+/*!
+ * Minimalistic stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+/**
+* Imports the base theme 
+*/
+@import "kmom04.less";
+
+/**
+* Extra styling
+*/
+
+// header
+.inner-wrap-header {
+    background-color: @primaryColor;
+    color: @lightTextColor;
+}
+
+.rm-desktop {
+    background-color: @primaryColor;
+
+    li a {
+        background-color: @primaryColor;
+        color: @lightTextColor;
+        &:hover {
+            background-color: @primaryColor;
+            color: @lightTextColor;
+        }
+    }
+}
+
+.site-logo-text {
+    a {
+        color: @lightTextColor;
+    }
+}
+
+// change color of exit button in the mobile menu
+a.rm-clicked {
+    color: #fff !important;
+}
+
+// footer
+.inner-wrap-footer {
+    color: @lightTextColor;
+
+    a {
+        color: @accentColor;
+    }
+
+    h4 {
+        color: @lightTextColor;
+    }
+
+    hr {
+        color: @lightTextColor;
+        background-image: linear-gradient(to right,rgba(0,0,0,0), @accentColor,rgba(0,0,0,0));
+    }
+}
+
+/**
+* variables
+*/
+@primaryColor: #333;
+@primaryDarker: #111;
+@bgColor: #fff;
+@accentColor: #777;
+@lightTextColor: #fff;
+@footerBg: @primaryColor;
+
+@fontFamilyHeadings: @fontFamilyCambria;
+@fontFamilyBody: @fontFamilyCambria;
+@fontFamilyCode: @fontFamilyCourier;

@@ -1,0 +1,126 @@
+/*!
+ * Colorful stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+/**
+* Imports the base theme 
+*/
+@import "kmom04.less";
+
+/**
+* Fonts
+*/
+//roboto
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+//2p
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+/**
+* Extra styling
+*/
+body {
+    color: @lightTextColor;
+}
+
+// header
+.inner-wrap-header {
+    background-color: @primaryColor;
+    color: @accentDark;
+    border-bottom: 2px solid @accentDark;
+}
+
+.rm-desktop {
+    background-color: @primaryColor;
+
+    li a {
+        background-color: @primaryColor;
+        color: @accentColor;
+        text-shadow: 1px 1px @accentDark;
+
+        &:hover {
+            background-color: @primaryColor;
+            text-decoration-color: @accentDark;
+        }
+    }
+}
+
+.rm-mobile {
+    background-color: @accentDark !important;
+    color: @accentColor;
+}
+
+.rm-button.rm-clicked {
+    color: @primaryColor !important;
+}
+
+.site-logo-text {
+    a {
+        font-family: @retro;
+        color: @accentDark;
+        text-decoration: none;
+        text-shadow: 2px 2px @accentColor;
+
+        &:hover {
+            color: @accentColor;
+            text-shadow: 2px 2px @accentDark;
+        }
+    }
+}
+
+// footer
+.inner-wrap-footer {
+    border-top: 2px solid @accentColor;
+    color: @lightTextColor;
+
+    a {
+        color: @accentColor;
+
+        &:hover {
+            color: @primaryColor;
+        }
+    }
+
+    h4 {
+        color: @primaryColor;
+    }
+
+    hr {
+        color: @primaryColor;
+        background-image: linear-gradient(to right,rgba(0,0,0,0), @accentColor,rgba(0,0,0,0));
+    }
+}
+
+/**
+* Font styles
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-shadow: 2px 2px @accentColor;
+}
+
+/**
+* variables
+*/
+@black: #000;
+@darkGrey: #212121;
+@lightGrey: #303030;
+
+@primaryColor: #ba2de0;
+@primaryDarker: #a42ac5;
+@headerBg: #111111;
+@bgColor: @accentDark;
+@accentColor: #1fb7e6;
+@accentDark: #0c002f;
+@lightTextColor: #afafaf;
+@footerBg: #0b0324;
+
+@fontFamilyRoboto: 'Roboto Mono', monospace;
+@retro: 'Press Start 2P', cursive;
+
+@fontFamilyHeadings: @retro;
+@fontFamilyBody: @fontFamilyRoboto;
+@fontFamilyCode: @fontFamilyCourier;

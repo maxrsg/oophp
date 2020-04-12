@@ -1,0 +1,85 @@
+/*!
+ * Dark stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+/**
+* Imports the base theme 
+*/
+@import "kmom04.less";
+
+/**
+* Extra styling
+*/
+body {
+    color: @lightTextColor;
+}
+
+// header
+.inner-wrap-header {
+    background-color: @headerBg;
+    border-bottom: 2px solid @accentColor;
+}
+
+
+.rm-default {
+    li a {
+        color: @primaryColor;
+
+        &:hover {
+            text-decoration-color: @accentColor;
+        }
+    }
+}
+
+.rm-desktop {
+    background-color: @headerBg;
+
+    li a {
+        background-color: @headerBg;
+
+        &:hover {
+            background-color: @headerBg;
+            color: @primaryColor;
+        }
+    }
+}
+
+a.rm-button {
+    color: @primaryColor !important;
+}
+
+// content
+code {
+    color: @accentDark;
+}
+
+.next-previous {
+    color: @accentColor;
+}
+
+// footer
+.inner-wrap-footer {
+    border-top: 2px solid @primaryColor;
+}
+
+/**
+* variables
+*/
+@black: #000;
+@darkGrey: #212121;
+@lightGrey: #303030;
+
+@primaryColor: #ba2de0;
+@primaryDarker: #a42ac5;
+@headerBg: #111111;
+@bgColor: #111111;
+@accentColor: #1fb7e6;
+@accentDark: #0c002f;
+@lightTextColor: #afafaf;
+@footerBg: @headerBg;
+
+@fontFamilyHeadings: @fontFamilyCambria;
+@fontFamilyBody: @fontFamilyCambria;
+@fontFamilyCode: @fontFamilyCourier;

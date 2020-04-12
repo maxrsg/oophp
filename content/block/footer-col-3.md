@@ -1,3 +1,5 @@
-#### Footer col 3
+#### GitHub
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Kursens [GitHub-repo](https://github.com/dbwebb-se/oophp).
+
+Hemsidans [GitHub-repo](https://github.com/maxrsg/oophp).

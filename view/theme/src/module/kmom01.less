@@ -1,0 +1,324 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* header */
+.region-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid #931fb4;
+    background-color: #fff;
+    position: fixed;
+    max-height: 40px;
+}
+
+
+.region-header-col-2 {
+    width: 80%;
+}
+
+.rm-default {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.rm-default a {
+    padding: 5px;
+    color: #931fb4;
+    font-size: 26px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.rm-default a:hover {
+    color: #791c92;
+    border-bottom: 2px solid #19a4ce;
+}
+
+.rm-submenu-button {
+    display: none;
+}
+
+.site-logo img {
+    max-height: 150px;
+    display: none;
+}
+
+/* small header img */
+.site-logo-text {
+    font-size: 26px;
+}
+
+.site-logo-text a {
+    text-decoration: none;
+    color: #931fb4;
+    margin-bottom: 5px;
+}
+
+.outer-wrap-flash img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* footer */
+
+.region-footer {
+    display: flex;
+    flex-direction: column;
+    background: #141414;
+    color: #fff;
+    border-top: 2px solid #791c92;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* flash img */
+.region-flash img {
+    height: 150px;
+    border-bottom: 2px solid #931fb4;
+    width: 100%;
+}
+
+/* article */
+.article {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.has-sidebar-left .article {
+    margin-left: 0;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.has-sidebar-right .article {
+    margin-right: 0;
+    width: 80%;
+}
+
+.article h1 {
+    color: #791c92;
+    font-size: 30px;
+    border-bottom: 2px solid #19a4ce;
+    margin-bottom: 30px;
+}
+
+.article h2 {
+    color: #791c92;
+    border-bottom: 1px solid #19a4ce91;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.article h3 {
+    color: #791c92;
+    border-bottom: 1px solid #19a4ce91;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.article p {
+    max-width: 60%;
+    margin-bottom: 30px;
+}
+
+.article ul {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.figure {
+    float: right;
+}
+
+.figure img {
+    width: 350px;
+}
+
+/* block */
+.block {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+/* redovisning */
+.row {
+    display: flex;
+}
+
+.outer-wrap-breadcrumb {
+    margin-left: 6%;
+}
+
+.wrap-sidebar {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.wrap-sidebar .block {
+    border-right: 1px solid #931fb4;
+}
+
+.wrap-sidebar h4 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #931fb4;
+    padding: 5px;
+}
+
+.wrap-sidebar ul {
+    list-style: none;
+}
+
+.wrap-sidebar .level-0 {
+    margin-top: 10px;
+}
+
+.wrap-sidebar li {
+    margin-top: 4px;
+}
+
+.wrap-sidebar a {
+    color: #931fb4;
+    font-size: 18px;
+}
+
+.wrap-sidebar a:hover {
+    color: #791c92;
+}
+
+.wrap-sidebar .selected {
+    background-color: #2c91c09a;
+}
+
+.region-flash {
+    width: 100%;
+}
+
+.outer-wrap-main {
+    min-height: 400px;
+}
+
+.has-sidebar-right {
+    width: 80%;
+}
+
+.has-sidebar-right .figure {
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* next */
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.next-previous a {
+    font-size: 20px;
+    color: #931fb4;
+    text-decoration-color: #19a4ce;
+}
+
+.next {
+    margin-left: auto;
+}
+
+/* breadcrumbs */
+.breadcrumb-list ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.breadcrumb-list li::after {
+    content: " » ";
+}
+
+/* styleväljare */
+
+.region-main {
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+h1 {
+    color: #791c92;
+    font-size: 30px;
+    border-bottom: 2px solid #19a4ce;
+    margin-bottom: 30px;
+}
+
+.stylechooser p {
+    padding: 10px;
+}
+
+.stylechooser legend {
+    margin-left: 30px;
+}
+
+.stylechooser th {
+    font-size: 18px;
+}
+
+.stylechooser select {
+    font-size: 18px;
+}
+
+code {
+    border: 1px solid #19a4ce;
+    background-color: #eee;
+}
+
+/* byline */
+.byline {
+    display: flex;
+    outline: 1px solid #19a4ce;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.byline-img img {
+    width: 80px;
+    border: 1px solid #931fb4;
+    margin-right: 10px;
+}

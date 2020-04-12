@@ -1,27 +1,10 @@
 ---
-title: "Min fina titel"
+title: "Hem"
 ---
 Min me-sida i kursen oophp
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/f1.jpg?w=300&h=200" class="right" caption="Formel 1 är skoj"]
 
-[FIGURE src="image/me.jpg?w=400&a=4,27,11,0&cf&sharpen" class="right" caption="Bild på mig, ätandes glass och hållandes ett kort på någon jultillställning."]
+En solig sommardag i Stockholm året innan sekelskiftet. Föddes jag. Mina nästa tre år spenderades i våran vackra huvudstad. Sedan bar det av till sydligare bräddgrader. Nu befann jag mig i den extremt tråkiga lilla hålan Höör som ligger mitt i Skåne. Där började min kärriär i skolan som elev på den väldigt flummiga waldorfskolan, Emiliaskolan. Efter nio långa år av vegetarisk mat, skogsutflykter och tråkiga lärare, började jag på NTI gymnasiet i Lund. Där gick jag linjen, informations- och medieteknik. Men efter tre år på gymnasiet var jag inte helt säker på vad jag ville göra. Så då valde jag att gå ett tekniskt fjärde år på NTI med inriktning mjukvarudesign. Huvudsakliga anledningen till att jag valde att läsa det var att det ingår en praktik. Så att man får känna på att arbeta inom branchen. Efter att ha läst åtta programmeringsinriktade kurser samt praktiserat på ett konsultbolag som utvecklare i fjorton veckor. Var jag nu utbildad gymnasieingenjör och jag visste att programmerare var något som jag ville jobba som. Men kände ändå att jag hade mer att lära mig innan jag gav mig ut på arbetsmarknaden. Det är därför jag nu är här på BTH. 
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
-
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching, sedan turfing och nu på sistone verkar släktforskning lite spännande. Annars kan jag alltid koda på något av mina opensource-projekt, det finns och blir över.
-
-Vill du läsa mer om vad jag jobbat med så kan du kika på min [Linkedin-profil](https://www.linkedin.com/in/pt90mr/).
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
