@@ -1,1 +1,1 @@
-https://github.com/maxrsg/oophp.git
+https://github.com/maxrsg/oophp
