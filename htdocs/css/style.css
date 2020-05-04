@@ -5778,3 +5778,12 @@ a.rm-clicked {
 /**
 * variables
 */
+
+/* 
+* guess game
+*/
+
+.guess-form {
+  display: flex;
+  flex-direction: row;
+}
