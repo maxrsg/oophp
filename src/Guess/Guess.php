@@ -75,7 +75,7 @@ class Guess
      */
     public function makeGuess($number)
     {
-        $res;
+        $res = "";
         if ($this->tries > 0) {
             $this->tries--;
 

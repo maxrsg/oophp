@@ -16,6 +16,7 @@ class Dice100
     public $player;
     public $computer;
     private $currentPlayer;
+    private $histogram;
 
 
     /**
@@ -50,6 +51,18 @@ class Dice100
     {
         $this->gameState = $value;
     }
+
+
+
+    /**
+     * Histogram stuff
+     */
+    public function getHistogram()
+    {
+
+        return $this->currentPlayer->getHistogram();
+    }
+
 
 
     /**

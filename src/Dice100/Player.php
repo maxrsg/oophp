@@ -11,6 +11,7 @@ class Player
     private $dice1;
     private $dice2;
     private $diceArray = array();
+    private $histogram;
 
 
 
@@ -19,8 +20,11 @@ class Player
     */
     public function __construct()
     {
-        $this->dice1 = new \Magm19\Dice100\Dice();
-        $this->dice2 = new \Magm19\Dice100\Dice();
+        // $this->dice1 = new \Magm19\Dice100\Dice();
+        // $this->dice2 = new \Magm19\Dice100\Dice();
+        $this->dice1 = new \Magm19\Dice100\DiceHistogram();
+        $this->dice2 = new \Magm19\Dice100\DiceHistogram();
+        $this->histogram = new Histogram;
     }
 
 
@@ -36,6 +40,7 @@ class Player
         $this->dice2->roll();
         array_push($this->diceArray, $this->dice1->getValue(), $this->dice2->getValue());
         $this->currentHand += $this->dice1->getValue() + $this->dice2->getValue();
+        $this->histogram->injectData($this->dice1);
     }
 
 
@@ -47,6 +52,16 @@ class Player
     {
         $lastTwo = array_slice($this->diceArray, -2);
         return implode(", ", $lastTwo);
+    }
+
+
+
+    /**
+     * returns histogram
+     */
+    public function getHistogram()
+    {
+        return $this->histogram;
     }
 
 
